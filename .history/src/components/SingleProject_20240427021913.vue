@@ -2,11 +2,11 @@
   <div class="project">
     <div class="actions">
         <h3 @click="showDetails = !showDetails">{{ project.title }}</h3>
-        <div class="icons">
-            <span class="material-icons">edit</span>
-            <span class="material-icons">delete</span>
-            <span class="material-icons">done</span>
-        </div>
+    </div>
+    <div class="icons">
+        <span class="material-symbols-outlined">edit</span>
+        <span class="material-symbols-outlined">delete</span>
+        <span class="material-symbols-outlined">done</span>
     </div>
     <div v-if="showDetails" class="details">
         <p>{{ project.details }}</p>

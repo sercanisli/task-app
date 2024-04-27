@@ -36,8 +36,7 @@ export default {
       this.projects = this.projects.filter((project) => project.id !== id)
     },
     handleComplete(id){
-      let p = this.projects.find(prj => prj.id === id );
-      p.complete = !p.complete;
+      this.projects= this.projects.find(prj => prj.id === id )
     }
   },
 }

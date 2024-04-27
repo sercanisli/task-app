@@ -1,5 +1,5 @@
 <template>
-  <div class="project" :class="{ complete: project.complete }">
+  <div class="project">
     <div class="actions">
         <h3 @click="showDetails = !showDetails">{{ project.title }}</h3>
         <div class="icons">

@@ -21,15 +21,13 @@ export default {
       let project = {
         title: this.title,
         details: this.details,
-        complete: false,
+        complete: false
       };
-      fetch("http://localhost:3000/projects", {
-        method: "POST",
+      fetch('http://localhost:3000/projects',{
+        method:'POST',  
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(project),
       })
-        .then(() => this.$router.push("/"))
-        .catch((err) => console.log(err));
     }
   },
 }

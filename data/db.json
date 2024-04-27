@@ -4,7 +4,7 @@
       "id": "1",
       "title": "Deneme 0",
       "details": "Lorem Ipsum is simply Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. aaaaaaaaaaaa",
-      "complete": false
+      "complete": true
     },
     {
       "id": "2",
@@ -27,7 +27,7 @@
     {
       "title": "Deneme 5",
       "details": "asfasdf gsdg erhdshs thfsgh",
-      "complete": false,
+      "complete": true,
       "id": "5"
     },
     {
@@ -35,6 +35,24 @@
       "details": "fdgdfg dfhfdgh sfdhsh srthsfhg",
       "complete": true,
       "id": "6"
+    },
+    {
+      "id": "8f71",
+      "title": "Salihli",
+      "details": "İçinde salli geçtiği için",
+      "complete": true
+    },
+    {
+      "id": "8e37",
+      "title": "Keşfet",
+      "details": "Tüm keşfet",
+      "complete": false
+    },
+    {
+      "id": "3da5",
+      "title": "Otomasyon",
+      "details": "dümyanın geleceği",
+      "complete": true
     }
   ]
 }

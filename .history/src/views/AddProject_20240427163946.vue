@@ -28,8 +28,6 @@ export default {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(project),
       })
-        .then(() => this.$router.push("/"))
-        .catch((err) => console.log(err));
     }
   },
 }

@@ -21,15 +21,14 @@ export default {
         return {
             showDetails: false,
             uri:"http://localhost:3000/projects/" + this.project.id,
-        };
+        }
     },
     methods:{
       deleteProject(){
         fetch(this.uri, {method:"DELETE"})
-          .then(() => this.$emit("delete", this.project.id));
       }
-    },
-};
+    }
+}
 </script>
 
 <style>

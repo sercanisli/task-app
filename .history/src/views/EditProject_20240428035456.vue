@@ -35,9 +35,9 @@ export default {
                     title:this.title, 
                     details:this.details
                 })
-            })
-                .then(() => this.$router.push("/"))
-                .catch((error) => console.log(error));
+                    .then(() => this.$router.push("/"))
+                    .catch((error) => console.log(error)),
+            });
         },
     },
 };

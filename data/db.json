@@ -16,13 +16,13 @@
       "id": "3",
       "title": "Deneme 3",
       "details": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      "complete": false
+      "complete": true
     },
     {
       "id": "4",
       "title": "Deneme 4",
       "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      "complete": false
+      "complete": true
     },
     {
       "title": "Deneme 5",
@@ -40,7 +40,7 @@
       "id": "8f71",
       "title": "Salihli",
       "details": "İçinde salli geçtiği için",
-      "complete": true
+      "complete": false
     },
     {
       "id": "8e37",
@@ -52,7 +52,7 @@
       "id": "3da5",
       "title": "Otomasyon",
       "details": "dümyanın geleceği",
-      "complete": true
+      "complete": false
     }
   ]
 }

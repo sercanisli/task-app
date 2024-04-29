@@ -19,7 +19,7 @@ const routes = [
     props:true
   },
   {
-    path: '/welcome',
+    path: '/welcome,
     name: 'Welcome',
     component: () => import('../views/Welcome.vue'),
   }

@@ -1,7 +1,6 @@
 <template>
   <div class="container welcome">
     <p>Welcome</p>
-    <SignupForm />
   </div>
 </template>
 

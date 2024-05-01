@@ -50,7 +50,6 @@ export default {
   background-color: rgb(54, 196, 108);
   border-radius: 15px;
   border: none;
-  padding: 15px;
-  color: white;
+  padding: 10px;
 }
 </style>

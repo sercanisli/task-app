@@ -51,6 +51,5 @@ export default {
   border-radius: 15px;
   border: none;
   padding: 15px;
-  color: white;
 }
 </style>

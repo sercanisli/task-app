@@ -2,7 +2,6 @@
   <form @submit.prevent="handleLogin">
     <input type="email" required placeholder="E-mail" v-model="email">
     <input type="password" required placeholder="Password" v-model="password">
-    <div class="error">{{ error }}</div>
     <button>Login</button>
   </form>
 </template>
@@ -25,7 +24,7 @@ export default {
       }
     }
 
-    return {email, password, handleLogin, error};
+    return {email, password, handleLogin};
  }
 }
 </script>

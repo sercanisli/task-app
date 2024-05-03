@@ -12,7 +12,7 @@ import {ref} from 'vue';
 import useLogin from '../composables/useLogin';
 
 export default {
- setup(props, context) {
+ setup() {
     const email = ref('')
     const password = ref('')
     const {error, login} = useLogin();
@@ -20,6 +20,7 @@ export default {
     const handleLogin = async () => {
       await login(email.value, password.value);
       if (!error.value) {
+        console.log('ok')
         context.emit("login");
       }
     }

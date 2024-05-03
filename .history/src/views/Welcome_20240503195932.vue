@@ -8,7 +8,7 @@
     </div>
     <div v-else>
       <h2>Sign Up</h2>
-      <SignupForm @signup="enterHome"/>
+      <SignupForm />
       <p>Already registered? <span @click="showLogin = true">Login</span></p>
     </div>
   </div>
@@ -33,7 +33,7 @@ export default {
       router.push({name:'home'})
     }
 
-    return { showLogin, enterHome };
+    return { showLogin };
   }
 }
 </script>

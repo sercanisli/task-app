@@ -12,7 +12,7 @@ import {ref} from 'vue';
 import useLogin from '../composables/useLogin';
 
 export default {
- setup(props, context) {
+ setup() {
     const email = ref('')
     const password = ref('')
     const {error, login} = useLogin();

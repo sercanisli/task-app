@@ -30,11 +30,8 @@ export default {
 </script>
 
 <style>
-.filter-nav {
-  text-align: center;
-}
-
 .filter-nav button {
+  display: flex;
   justify-content: center;
   background: none;
   border: none;

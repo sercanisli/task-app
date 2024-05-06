@@ -26,7 +26,7 @@ export default {
 <style>
 .main-nav {
   text-align: center;
-  margin: 20px auto;
+  margin: 40px auto;
 }
 .main-nav a {
   display: inline-block;

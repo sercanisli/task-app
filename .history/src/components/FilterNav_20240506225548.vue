@@ -29,13 +29,8 @@ export default {
 };
 </script>
 
-<style>
-.filter-nav {
-  text-align: center;
-}
-
+<style scoped>
 .filter-nav button {
-  justify-content: center;
   background: none;
   border: none;
   color: #bbb;

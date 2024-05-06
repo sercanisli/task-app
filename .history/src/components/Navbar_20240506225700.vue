@@ -1,6 +1,6 @@
 <template>
-  <div class="buttonDiv">
-    <button class="button" @click="handleClick">Logout</button>
+  <div class="button">
+    <button @click="handleClick">Logout</button>
   </div>
   <nav class="main-nav">
     <router-link :to="{ name: 'home' }">Projects</router-link>
@@ -9,24 +9,17 @@
 </template>
 
 <script>
-import useLogout from "../composables/useLogout";
-export default {
-  setup() {
-    const { logout, error } = useLogout();
-    const handleClick = async () => {
-      await logout();
-      if (!error.value) {
-      }
-    };
-    return { handleClick };
-  },
-};
+export default {};
 </script>
+
+import useLogout from '../composables/useLogout'; export default { setup() {
+const {logout, error} = useLogout(); const handleClick = async () => { await
+logout(); if(!error.value){ } } return {handleClick} } }
 
 <style>
 .main-nav {
   text-align: center;
-  margin: 20px auto;
+  margin: 40px auto;
 }
 .main-nav a {
   display: inline-block;
@@ -39,12 +32,6 @@ a.router-link-active {
   border-bottom: 2px solid #76dd78;
   padding-bottom: 4px;
   color: #76dd78;
-}
-
-.buttonDiv {
-  display: flex; /* Butonun içinde sağa yaslama yapmak için */
-  justify-content: flex-end; /* Butonları sağa yaslar */
-  margin-top: 20px;
 }
 button {
   justify-content: end;

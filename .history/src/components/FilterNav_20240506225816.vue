@@ -30,10 +30,6 @@ export default {
 </script>
 
 <style>
-.filter-nav {
-  text-align: center;
-}
-
 .filter-nav button {
   justify-content: center;
   background: none;

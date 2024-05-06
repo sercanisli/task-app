@@ -1,6 +1,6 @@
 <template>
-  <div class="buttonDiv">
-    <button class="button" @click="handleClick">Logout</button>
+  <div class="button">
+    <button @click="handleClick">Logout</button>
   </div>
   <nav class="main-nav">
     <router-link :to="{ name: 'home' }">Projects</router-link>
@@ -26,7 +26,7 @@ export default {
 <style>
 .main-nav {
   text-align: center;
-  margin: 20px auto;
+  margin: 40px auto;
 }
 .main-nav a {
   display: inline-block;
@@ -39,12 +39,6 @@ a.router-link-active {
   border-bottom: 2px solid #76dd78;
   padding-bottom: 4px;
   color: #76dd78;
-}
-
-.buttonDiv {
-  display: flex; /* Butonun içinde sağa yaslama yapmak için */
-  justify-content: flex-end; /* Butonları sağa yaslar */
-  margin-top: 20px;
 }
 button {
   justify-content: end;

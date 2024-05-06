@@ -26,7 +26,7 @@ export default {
 <style>
 .main-nav {
   text-align: center;
-  margin: 20px auto;
+  margin: 40px auto;
 }
 .main-nav a {
   display: inline-block;
@@ -44,7 +44,6 @@ a.router-link-active {
 .buttonDiv {
   display: flex; /* Butonun içinde sağa yaslama yapmak için */
   justify-content: flex-end; /* Butonları sağa yaslar */
-  margin-top: 20px;
 }
 button {
   justify-content: end;

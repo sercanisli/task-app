@@ -1,6 +1,6 @@
 <template>
   <div class="buttonDiv">
-    <p class="displayName"></p>
+    <p class="displayName">{{ user.displayName }}</p>
     <button class="button" @click="handleClick">Logout</button>
   </div>
   <nav class="main-nav">
@@ -19,12 +19,13 @@ export default {
   },
   setup() {
     const { logout, error } = useLogout();
+    const { user } = getUser();
     const handleClick = async () => {
       await logout();
       if (!error.value) {
       }
     };
-    return { handleClick };
+    return { handleClick, user };
   },
 };
 </script>
@@ -59,8 +60,7 @@ a.router-link-active {
   align-items: center;
   background: #f08be2;
   color: white;
-  padding: 10px;
-  border-radius: 35px;
+  padding: 5px;
 }
 
 .displayName {

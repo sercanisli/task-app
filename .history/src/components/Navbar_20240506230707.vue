@@ -1,6 +1,6 @@
 <template>
   <div class="buttonDiv">
-    <p class="displayName">'displayName'</p>
+    <p>'displayName'</p>
     <button class="button" @click="handleClick">Logout</button>
   </div>
   <nav class="main-nav">
@@ -47,11 +47,6 @@ a.router-link-active {
   justify-content: flex-end; /* Butonları sağa yaslar */
   margin-top: 20px;
 }
-
-.displayName {
-  margin-right: 20px;
-}
-
 button {
   justify-content: end;
   text-decoration: none;

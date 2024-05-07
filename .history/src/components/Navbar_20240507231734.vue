@@ -1,6 +1,6 @@
 <template>
   <div class="buttonDiv">
-    <p class="displayName">{{ user.displayName }}</p>
+    <p class="displayName">{{ userName }}</p>
     <button class="button" @click="handleClick">Logout</button>
   </div>
   <nav class="main-nav">
@@ -22,7 +22,7 @@ export default {
       if (!error.value) {
       }
     };
-    return { handleClick, user };
+    return { handleClick, userName };
   },
 };
 </script>

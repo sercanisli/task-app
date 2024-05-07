@@ -1,6 +1,6 @@
 <template>
   <div class="buttonDiv">
-    <p class="displayName">{{ user.displayName }}</p>
+    <p class="displayName">{{ userName }}</p>
     <button class="button" @click="handleClick">Logout</button>
   </div>
   <nav class="main-nav">
@@ -17,12 +17,13 @@ export default {
     const { logout, error } = useLogout();
     const { user } = getUser();
     const userName = user.displayName;
+    console.log(userName);
     const handleClick = async () => {
       await logout();
       if (!error.value) {
       }
     };
-    return { handleClick, user };
+    return { handleClick, userName };
   },
 };
 </script>

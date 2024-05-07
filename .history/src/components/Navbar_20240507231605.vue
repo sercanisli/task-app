@@ -16,7 +16,6 @@ export default {
   setup() {
     const { logout, error } = useLogout();
     const { user } = getUser();
-    const userName = user.displayName;
     const handleClick = async () => {
       await logout();
       if (!error.value) {

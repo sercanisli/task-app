@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import getUser from "../composables/getUser";
+import getUser from "../composable/getUser";
 import { watch } from "vue";
 import { useRoute } from "vue-router";
 export default {

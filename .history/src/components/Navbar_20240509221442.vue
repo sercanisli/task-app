@@ -1,5 +1,5 @@
 <template>
-  <div v-if="user" class="buttonDiv">
+  <div class="buttonDiv">
     <p class="displayName">{{ user.displayName }}</p>
     <button class="button" @click="handleClick">Logout</button>
   </div>

@@ -17,7 +17,7 @@
 <script>
 import SingleProject from "../components/SingleProject";
 import FilterNav from "../components/FilterNav.vue";
-import Navbar from "../components/Navbar.vue";
+import FilterNav from "../components/Navbar.vue";
 export default {
   name: "Home",
   components: {

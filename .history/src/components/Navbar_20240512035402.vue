@@ -73,8 +73,8 @@ button {
   font-weight: bold;
   border: 0;
   border-radius: 20px;
-  padding: 0px 30px;
+  padding: 8px 16px; /* Padding değerlerini azaltabilirsiniz */
   cursor: pointer;
-  font-size: 14px;
+  font-size: 14px; /* Font boyutunu küçültebilirsiniz */
 }
 </style>

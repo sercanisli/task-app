@@ -64,17 +64,4 @@ a.router-link-active {
 .displayName {
   margin-right: 20px;
 }
-
-button {
-  justify-content: end;
-  text-decoration: none;
-  background: #33a464;
-  color: #fff;
-  font-weight: bold;
-  border: 0;
-  border-radius: 20px;
-  padding: 0px 30px;
-  cursor: pointer;
-  font-size: 14px;
-}
 </style>
